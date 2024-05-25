@@ -1,0 +1,140 @@
+.foter {
+    .boxx22 {
+        .mbb {
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 14px;
+            color: black;
+            margin-top: 60px;
+            margin-left: -130px;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 60px;
+        }
+    }
+
+    .pl-700 {
+        padding-left: 50px;
+    }
+
+    .navigatsa {
+        font-weight: 500;
+        font-family: roboto;
+        margin-left: 130px;
+        margin-top: -30px;
+        margin-bottom: 40px;
+        cursor: pointer;
+        color: black;
+    }
+
+    display: flex;
+
+    .box-22 {
+        cursor: pointer;
+        display: flex;
+        padding-left: 130px;
+        padding-bottom: 32px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        gap: 30px;
+
+        .aksiyaaa {
+            font-family: roboto;
+            font-weight: 400;
+            cursor: pointer;
+            color: red;
+        }
+    }
+
+    .lama {
+        font-weight: bold;
+        font-family: roboto;
+        font-size: 56px;
+        margin-left: 1200px;
+        margin-top: -40px;
+    }
+
+    .foter-box1,
+    .nav {
+        display: flex;
+        padding-left: 130px;
+        gap: 83px;
+        cursor: pointer;
+        padding-bottom: 51px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4d4d4d;
+
+        .tex2,
+        .tex3 {
+            padding-top: 7px;
+        }
+    }
+}
+
+footer {
+    padding-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.tel{
+    margin-left: -491px;
+}
+.nomer{
+    margin-left: 30px;
+    margin-top: -20px;
+    font-family: roboto;
+}
+
+.instag{
+    margin-left: -300px;
+    margin-top: -20px;
+    font-family: roboto;
+}
+
+.ins{
+    margin-top: -20px;
+    margin-left: 30px;
+    color: #414141;
+}
+
+.pochta{
+    margin-left: -150px;
+    margin-top: -20px;
+
+}
+
+.poch{
+    margin-top: -20px;
+    margin-left: 30px;
+    font-family: roboto;
+    color: #414141;
+}
+
+@media (max-width:1385px) {
+    
+.lamas{
+margin-left: -400px;
+}
+
+}
+
+@media (max-width:990px) {
+    
+    .lamas{
+    margin-left: -500px;
+    }
+    .footer-res{
+        margin-left: -100px;
+        gap: 20px;
+    }
+    
+    }
+
+    @media (max-width:770px) {
+    footer {
+        display: none;
+    }
+        }

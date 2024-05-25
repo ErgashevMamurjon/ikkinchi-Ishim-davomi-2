@@ -1,0 +1,82 @@
+.xit{
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+display: flex;
+justify-content: start;
+padding-left: 230px;
+padding-top: 60px;
+padding-bottom: 67px;
+}
+.tavar{
+.one{
+    div{
+        display: flex;
+        align-items: center;
+        img{
+        padding-top: 42px;
+        padding-bottom: 54px;
+        padding-left: 35px;
+        padding-right: 35px;
+        }
+      }
+     i{
+       top: 0;
+       padding-top: 21px;
+       margin-top: -220px;
+       padding-right: 15px;
+        }
+      .text-one{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    }
+    .text-two{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 11px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    }
+    .text-pul{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    }
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 270px;
+}
+.one:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+border-radius: 10px;
+transition: 0.3s;
+}
+}
+@media (max-width:1220px) {
+    .tavar, .one div img{
+    padding-left: 0;
+    padding-right: 0;
+    }
+}
+@media (max-width:1235px) {
+    .f{
+ display: none;
+    }
+    }
+    @media (max-width:900px) {
+        .d{
+     display: none;
+        }
+        }
+        @media (max-width:600px) {
+            .b{
+         display: none;
+            }
+            }
